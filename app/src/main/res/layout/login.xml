@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:background="@color/maincolor"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/maincolor"
+
+    tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/FoodysImageRegister"
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            android:paddingVertical="35dp"
+            android:src="@mipmap/foodys_transparent_foreground"
+            android:text="@string/foody_s"
+            android:textSize="60sp" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="335dp"
+            android:layout_height="62dp"
+            android:layout_below="@+id/FoodysImageRegister"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:autofillHints=""
+            android:hint="@string/user_name"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:selectAllOnFocus="false"
+            android:textColor="@color/textcolor"
+            android:textColorHint="@color/textcolor"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="174dp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="335dp"
+            android:layout_height="62dp"
+            android:layout_below="@+id/username"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:autofillHints=""
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textColorHint="@color/textcolor"
+            android:textColor="@color/textcolor"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="241dp" />
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="277dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/textcolor"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="@string/Login"
+            android:textColor="@color/background"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="384dp" />
+
+        <Button
+            android:id="@+id/btnredirect"
+            android:layout_width="276dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnlogin"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/textcolor"
+            android:text="@string/existing_user_go_to_sign_in_page"
+            android:textColor="@color/background"
+            tools:layout_editor_absoluteX="-16dp"
+            tools:layout_editor_absoluteY="463dp" />
+
+</RelativeLayout>
+</ScrollView>

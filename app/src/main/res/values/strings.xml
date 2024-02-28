@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Foody\'s</string>
+    <string name="apikey">14658aec23a64cbab452109cab9664c4</string>14658aec23a64cbab452109cab9664c4 deutero api key se periptwsh pou leiksei to allo
+    <string name="ingredients">What we\'ll need for this recipe</string>
+    <string name="meal_name">Meal Name</string>
+    <string name="source">Source</string>
+    <string name="summary">Summary</string>
+    <string name="similar_meals">You can also check out these similar recipes!</string>
+    <string name="food_photograph">Food photograph</string>
+    <string name="food_name" />
+    <string name="text_merides">2 People</string>
+    <string name="people_liked">2 People</string>
+    <string name="FoodPhoto">TODO</string>
+    <string name="merides_photo">TODO</string>
+    <string name="like_photo">TODO</string>
+    <string name="maintitle">Foody\'s</string>
+    <string name="instructions">Instructions</string>
+    <string name="steps">Step</string>
+    <string name="equipments">Equipments</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="menu">Menu</string>
+    <string name="item">Item</string>
+    <string name="stepitem">Stepitem</string>
+    <string name="ingredientnumber">1 pc</string>
+    <string name="photoDesc">Potato</string>
+    <string name="photodesc">TODO</string>
+    <string name="stepnum">TextView</string>
+    <string name="stepdesc">stepdesc</string>
+    <string name="foody_s">Foody\'s</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="retype_password">Retype Password</string>
+    <string name="Login">Login</string>
+    <string name="existing_user_go_to_sign_in_page">Not Registered? Sign Up here!</string>
+    <string name="foody_s_login">Foody\'s login</string>
+    <string name="password2">Password</string>
+    <string name="sign_in">Sign Up</string>
+    <string name="user_name1">Username</string>
+    1bb42a8552dd4d0da3b0c938bc722b6e
+    <string-array name="tags">
+        <item>breakfast</item>
+        <item>main course</item>
+        <item>salad</item>
+        <item>dessert</item>
+        <item>snack</item>
+    </string-array>
+</resources>
